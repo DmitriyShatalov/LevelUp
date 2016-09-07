@@ -11,7 +11,7 @@ public class Main {
         int N = Integer.parseInt(reader.readLine());
         System.out.println("N = " + N);
         makeBrack(N, "", 0, 0);
-        System.out.print("test");
+        System.out.print("test1");
     }
 
     static private void makeBrack(int N, String str, int OpenBracket, int CloseBracket) {
